@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="cssreset.css">
+        <link rel="stylesheet" href="login.css"> 
+        <title>Login</title>
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1 class="logo">
+                    <a href="index.html">
+                    <img src="logo.png"></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="catalogo.html">Catalogo</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                        <li><a href="login.html">Login/Cadastro</a></li>
+                    </ul>
+                </nav>   
+            </div> 
+        </header>
+        <main>
+            <form class="form">
+                <label for="name_">Nome e Sobrenome *</label>
+                <input type="text" id="name_" required>
+
+                <label for="password">Senha *</label>
+                <input type="password" id="password" required>
+
+                <label for="email">E-Mail *</label>
+                <input type="email" id="email" required>
+
+                <label for="phone">Telefone *</label>
+                <input type="number" id="phone" required>
+                
+                <label for="mensage">Mensagem</label>
+                <textarea cols="50" rows="15" id="mensage"></textarea>
+                
+                <div>
+                    <p>Como prefere o nosso contato ?</p><br>
+                    <label for="radio-mail">E-mail</label>
+                    <input type="radio" name="contatoclient" value="mail" id="radio-mail">
+
+                    <label for="radio-phone">Telefone</label>
+                    <input type="radio" name="contatoclient" value="phone" id="radio-phone">
+
+                    <label for="radio-whatsapp">Whatsapp</label>
+
+                    <input type="radio" name="contatoclient" value="MessengerWPP" id="radio-whatsapp">
+                </div>
+                
+                <div  class="checkbox">
+                    <label for="check-mail">Gostaria de receber nossas atividades por E-mail ?</label>
+                    <input type="checkbox">
+                </div>
+
+                <input type="submit" value="Cadastrar">
+            </form>
+        </main>
+        <footer>
+            <p><img src="logoprodutos.png"></p>
+            <p class="text">&copy; Copyright Felipe Corrêa - 2023</p>
+        </footer>
+    </body>
+</html>

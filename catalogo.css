@@ -1,0 +1,122 @@
+body {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    background: -webkit-linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    background: linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    position: relative;
+    height: auto;
+    background-repeat: repeat;
+}
+
+header {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 0 0 55px 55px;
+}
+
+.logo {
+    margin: 13px;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 0 0 55px 55px;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+    color: rgb(255,255,255,0.7);
+
+}
+
+footer p {
+    text-align: center;
+    background-image: url(imagem-de-fundo-ruído-abstrato-preto-uso-para-textura-design-manipulação-fotos-181584925.jpg);
+    padding-top: 10px;
+}
+
+nav ul li :hover {
+    color: black;
+    opacity: 0.8;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0000f0;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+main ul li {
+    color: black;
+}
+
+main{
+    width: 100%;
+    align-items: center;
+}
+
+main li {
+    display: inline-block;
+    padding-inline: 40px;
+    align-items: center;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+main img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+/* Scroll Bar  */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4f4fFF;
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4f4fFF;
+}
+
+
+/* Scroll Bar   */

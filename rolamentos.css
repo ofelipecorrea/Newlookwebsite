@@ -1,0 +1,135 @@
+body {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    background: -webkit-linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    background: linear-gradient(111deg, rgba(255,255,255,1) 0%, rgba(29,90,253,1) 50%, rgba(0,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#0000ff",GradientType=1);
+    background-position: center;
+    position: relative;
+    height: auto;
+    background-repeat: repeat;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(255,255,255,0.2);
+}
+
+header {
+    padding-top: 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 0 0 55px 55px;
+}
+
+.logo {
+    margin: 13px;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 2%;
+    border-radius: 0 0 55px 55px;
+}
+
+nav ul li :hover {
+    color: black;
+    opacity: 0.8;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: #0000f0;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Menu / Cabeçalho */
+
+/* Corpo */
+table {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+td img {
+    padding-top: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.preco {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td input {
+	border-radius: 50em;
+	border: 3px solid transparent;
+	position: relative;
+	display: inline-flex;
+	font-weight: bold;
+	text-decoration: none;
+	color: #10a87d;
+	cursor: pointer;
+}
+
+.total {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255,255,255);
+    width: 2%;
+    display: list-item -moz-inline-stack;
+    padding: 15px;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+    color: rgb(255,255,255,0.7);
+
+}
+
+footer p {
+    text-align: center;
+    background-image: url(imagem-de-fundo-ruído-abstrato-preto-uso-para-textura-design-manipulação-fotos-181584925.jpg);
+    padding-top: 10px;
+
+}
+/* Scroll Bar  */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4f4fFF;
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4f4fFF;
+}
+
+/* Scroll Bar   */
